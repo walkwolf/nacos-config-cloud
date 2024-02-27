@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+#        file-extension: yaml
+dev:
+  name: bootstrap.yml
