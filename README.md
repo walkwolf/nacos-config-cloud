@@ -1,6 +1,6 @@
 # nacos-config 配置本地优先测试
 
-## 基础配置
+## 基础配置如下
 - 程序运行参数 -Ddev.name=vmparam
 - bootstrap.yml 配置 dev.name=bootstrap.yml
 - application.yml 配置 dev.name=application.yml
