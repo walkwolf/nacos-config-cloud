@@ -1,2 +1,14 @@
+spring:
+  application:
+    name: test
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 13c2372e-550f-4374-9787-16f74f04fa24
+  config:
+    import:
+      - nacos:test.yml
+      - classpath:aplication-local.yml
 dev:
   name: application.yml
